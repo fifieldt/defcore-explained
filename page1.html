@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Defcore: explained &raquo; OpenStack Open Source Cloud Computing Software</title>
+
+    <base href="https://www.openstack.org/"><!--[if lte IE 6]></base><![endif]-->
+
+    <!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans&subset=latin' rel='stylesheet' type='text/css'>
+
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="http://www.openstack.org/themes/openstack/css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="http://www.openstack.org/themes/openstack/css/blueprint/print.css" type="text/css" media="print">
+
+    <!-- IE CSS -->
+    <!--[if lt IE 8]><link rel="stylesheet" href="http://www.openstack.org/themes/openstack/csss/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+    <!-- OpenStack Specific CSS -->
+
+    <link rel="stylesheet" href="http://www.openstack.org/themes/openstack/css/dropdown.css" type="text/css" media="screen, projection, print">
+
+
+  <link rel="stylesheet" type="text/css" href="https://www.openstack.org/themes/openstack/javascript/shadowbox/shadowbox.css?m=1391530504" />
+<link rel="stylesheet" type="text/css" href="https://www.openstack.org/themes/openstack/css/user-survey.css?m=1391530524" />
+<link rel="stylesheet" type="text/css" media="screen,projection" href="https://www.openstack.org/themes/openstack/css/chosen.css?m=1391530522" />
+<link rel="stylesheet" type="text/css" href="https://www.openstack.org/themes/openstack/css/jquery.autocomplete.css?m=1391530527" />
+<link rel="stylesheet" type="text/css" href="https://www.openstack.org/sapphire/css/CheckboxSetField.css?m=1391530728" />
+<link rel="stylesheet" type="text/css" href="https://www.openstack.org/themes/openstack/css/main.css?m=1391530523" />
+</head>
+  <body id="user-survey">
+
+  <div class="container">
+		<div id="header">
+			<div class="span-5">
+				<h1 id="logo"><a href="/">Open Stack</a></h1>
+			</div>
+			<div class="span-19 last blueLine">
+
+				<div id="navigation" class="span-19">
+					<ul id="Menu1">
+
+  		<li><a href="/" title="Go to the Home page" class="link">Home</a></li>
+
+  		<li><a href="/software/" title="Go to the Software page" class="link">Software</a></li>
+
+  		<li><a href="/user-stories/" title="Go to the User Stories page" class="link">User Stories</a></li>
+
+  		<li><a href="/community/" title="Go to the Community page" class="link">Community</a></li>
+
+  		<li><a href="/foundation/" title="Go to the Foundation page" class="link">Foundation</a></li>
+
+  		<li><a href="/profile/" title="Go to the Profile page" class="link">Profile</a></li>
+
+						  <li><a href="/blog/" title="Go to the OpenStack Blog">Blog</a></li>
+					  	  <li><a href="http://wiki.openstack.org/" title="Go to the OpenStack Wiki">Wiki</a></li>
+					  	  <li><a href="http://docs.openstack.org/" title="Go to OpenStack Documentation">Documentation</a></li>
+ 					</ul>
+
+
+				</div>
+
+			</div>
+	  	</div>
+
+	<div class="span-17">
+		<p></p>
+	</div>
+	</div>
+
+
+	<!-- Page Content -->
+
+    <div class="container">
+
+  		<h1>Defcore: explained.</h1>
+
+<div class="span-24 last">
+<p>
+The defcore process has long been complicated to understand. Now we have some initial ideas about "designated sections"
+and "core capabilities", this form aims to provide general guidance on
+whether you might be able to use certain marks based on your product usage. This page is provided for assistance 
+of understanding only - it is not a substitute for the official trademark license, nor do the results provide permission
+for use of any marks: a signed contract is required.
+</p>
+
+<form  id="Form" action="http://127.0.0.1:8888/" method="post" enctype="application/x-www-form-urlencoded">
+
+
+	<p id="Form_error" class="message " style="display: none"></p>
+
+
+	<fieldset>
+
+
+<div class="span-24 last">
+
+                        <div id="UserGroups" class="field checkboxset "><div class="middleColumn"><ul id="Form_UserGroups" class="optionset checkboxsetfield">
+<p style="font-weight: bold;"> I
+<select id="Form_Types" name="Type">
+<option value="cloud">run a cloud</option>
+<optgroup label="Products">
+<option value="storage">make a storage product</option>
+<option value="networking">make a networking product</option>
+<option value="server">make a server</option>
+</optgroup>
+</select>
+ which uses the below components. Can I label it
+<select id="Form_Trademarks" name="Trademarks">
+<option value="powered">OpenStack Powered</option>
+<option value="compatible">OpenStack Compatible</option>
+</optgroup>
+</select>
+ ?
+</p>
+</div>
+</div>
+			<div id="ProjectsUsed" class="field checkboxset "><div class="middleColumn"><ul id="Form_ProjectsUsed" class="optionset checkboxsetfield">
+<li class="odd valOpenstackCompute(Nova)"><input id="Form_ProjectsUsed_OpenstackComputeNova" name="ProjectsUsed[Openstack Compute (Nova)]" type="checkbox" value="Openstack Compute (Nova)"  class="checkbox" /> <label for="Form_ProjectsUsed_OpenstackComputeNova">Openstack Compute (Nova)</label></li>
+<li class="even valOpenstackBlockStorage(Cinder)"><input id="Form_ProjectsUsed_OpenstackBlockStorageCinder" name="ProjectsUsed[Openstack Block Storage (Cinder)]" type="checkbox" value="Openstack Block Storage (Cinder)"  class="checkbox" /> <label for="Form_ProjectsUsed_OpenstackBlockStorageCinder">Openstack Block Storage (Cinder)</label></li>
+<li class="odd valOpenstackObjectStorage(Swift)"><input id="Form_ProjectsUsed_OpenstackObjectStorageSwift" name="ProjectsUsed[Openstack Object Storage (Swift)]" type="checkbox" value="Openstack Object Storage (Swift)"  class="checkbox" /> <label for="Form_ProjectsUsed_OpenstackObjectStorageSwift">Openstack Object Storage (Swift)</label></li>
+<li class="even valOpenstackNetwork"><input id="Form_ProjectsUsed_OpenstackNetwork" name="ProjectsUsed[Openstack Network]" type="checkbox" value="Openstack Network (Neutron)"  class="checkbox" /> <label for="Form_ProjectsUsed_OpenstackNetwork">Openstack Network (Neutron)</label></li>
+<li class="odd valOpenstackDashboard(Horizon)"><input id="Form_ProjectsUsed_OpenstackDashboardHorizon" name="ProjectsUsed[Openstack Dashboard (Horizon)]" type="checkbox" value="Openstack Dashboard (Horizon)"  class="checkbox" /> <label for="Form_ProjectsUsed_OpenstackDashboardHorizon">Openstack Dashboard (Horizon)</label></li>
+<li class="even valOpenstackIdentityService(Keystone)"><input id="Form_ProjectsUsed_OpenstackIdentityServiceKeystone" name="ProjectsUsed[Openstack Identity Service (Keystone)]" type="checkbox" value="Openstack Identity Service (Keystone)"  class="checkbox" /> <label for="Form_ProjectsUsed_OpenstackIdentityServiceKeystone">Openstack Identity Service (Keystone)</label></li>
+<li class="odd valOpenstackImageService(Glance)"><input id="Form_ProjectsUsed_OpenstackImageServiceGlance" name="ProjectsUsed[Openstack Image Service (Glance)]" type="checkbox" value="Openstack Image Service (Glance)"  class="checkbox" /> <label for="Form_ProjectsUsed_OpenstackImageServiceGlance">Openstack Image Service (Glance)</label></li>
+<li class="even valHeat"><input id="Form_ProjectsUsed_Heat" name="ProjectsUsed[Heat]" type="checkbox" value="OpenStack Orchestration (Heat)"  class="checkbox" /> <label for="Form_ProjectsUsed_Heat">OpenStack Orchestration (Heat)</label></li>
+<li class="odd valCeilometer"><input id="Form_ProjectsUsed_Ceilometer" name="ProjectsUsed[Ceilometer]" type="checkbox" value="OpenStack Telemetry (Ceilometer)"  class="checkbox" /> <label for="Form_ProjectsUsed_Ceilometer">OpenStack Telemetry (Ceilometer)</label></li>
+<li class="even valOpenStackBareMetal(Ironic)"><input id="Form_ProjectsUsed_OpenStackBareMetalIronic" name="ProjectsUsed[OpenStack Bare Metal (Ironic)]" type="checkbox" value="OpenStack Bare Metal (Ironic)"  class="checkbox" /> <label for="Form_ProjectsUsed_OpenStackBareMetalIronic">OpenStack Bare Metal (Ironic)</label></li>
+<li class="odd valOpenStackDatabaseasaService(Trove)"><input id="Form_ProjectsUsed_OpenStackDatabaseasaServiceTrove" name="ProjectsUsed[OpenStack Database as a Service (Trove)]" type="checkbox" value="OpenStack Database as a Service (Trove)"  class="checkbox" /> <label for="Form_ProjectsUsed_OpenStackDatabaseasaServiceTrove">OpenStack Database as a Service (Trove)</label></li>
+</ul>
+</div></div>
+
+			</div>
+
+
+</div>
+
+
+		<div class="clear"><!-- --></div>
+	</fieldset>
+
+
+	<div class="Actions">
+
+			<input class="action " id="Form_action_SaveSurvey" type="submit" name="action_SaveSurvey" value="  Submit  " title="  Submit  " />
+
+	</div>
+
+
+</form>
+
+
+</div>
+
+	</div>
+
+		<hr />
+	</div>
+</div>
+</body>
+</html>
